@@ -17,10 +17,10 @@
 }
 
 .main {
-  width: 500px;
-  height: 1400px;
-  background-color: palegreen;
+  width: 960px;
   margin: 0 auto;
+  display: flex;
+  justify-content: center;
 }
 
 .footer {
@@ -29,8 +29,20 @@
   background-color: blue;
 }
 
-.brog {
+.sidebar-left {
   width: 230px;
   height: 1400px;
+  background-color: palegreen;
+}
+
+.brog {
+  width: 500px;
+  height: 1400px;
   background-color: limegreen;
+}
+
+.sidebar-right {
+ width: 230px;
+ height: 1400px;
+ background-color: palegreen;
 }
