@@ -2,28 +2,20 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  color: #6c6b6b;
-}
-
-a {
-  text-decoration: none;
 }
 
 header {
-  width: 90%; /* 横幅90% */
-  padding: 15px 0;
-  margin: 0 auto;
+  width: 100%;
+  padding: 20px 0;
   text-align: center;
-}
-
-header .heading { /* headerタグ内のheadingクラスにのみ反映される */
-  font-size: 32px;
 }
 
 .nav-list {
   text-align: center;
-  padding: 20px 0;
+  padding: 15px 0;
   margin: 0 auto;
+  border-bottom: 1px solid #848282;
+  border-top: 1px solid #848282;
 }
 
 .nav-list-item {
@@ -32,31 +24,83 @@ header .heading { /* headerタグ内のheadingクラスにのみ反映される 
   margin: 0 20px;
 }
 
-.main-visual {
-  width: 100%; /* 横幅いっぱい */
-  height: 300px; /* 高さ300px */
-}
-
-.main-visual-content {
-  width: 350px; /* 横幅350px */
-  height: 300px; /* 親の高さに揃える */
-}
-
 .main {
-  width: 840px; /* 横幅840px */
-  display: flex; /* Flexboxの利用 */
-  justify-content: center; /* 要素の横並び・中央寄せ */
-  margin: 0 auto; /* 中央寄せ（左右に余白がないとできない） */
+  width: 800px;
+  margin: 50px auto;
+  display: flex;
+  flex-wrap: wrap;
 }
 
-.blog {
-  width: 600px; /* 横幅600px */
-  height: 1400px; /* 高さ1400px */
+.box1 {
+  width: 200px;
+  height: 200px;
+  background-color: #e6ffe9;
 }
 
-.sidebar {
-  width: 240px; /* 横幅240px */
-  height: 1400px; /* 高さ1400px */
+.box2 {
+  width: 200px;
+  height: 200px;
+  background-color: #cbffd3;
+}
+
+.box3 {
+  width: 200px;
+  height: 200px;
+  background-color: #aeffbd;
+}
+
+.box4 {
+  width: 200px;
+  height: 200px;
+  background-color: #93ffab;
+}
+
+.box5 {
+  width: 200px;
+  height: 200px;
+  background-color: #f3ffd8;
+}
+
+.box6 {
+  width: 200px;
+  height: 200px;
+  background-color: #edffbe;
+}
+
+.box7 {
+  width: 200px;
+  height: 200px;
+  background-color: #e9ffa5;
+}
+
+.box8 {
+  width: 200px;
+  height: 200px;
+  background-color: #e4ff8d;
+}
+
+.box9 {
+  width: 200px;
+  height: 200px;
+  background-color: #d9e5ff;
+}
+
+.box10 {
+  width: 200px;
+  height: 200px;
+  background-color: #bad3ff;
+}
+
+.box11 {
+  width: 200px;
+  height: 200px;
+  background-color: #a4c6ff;
+}
+
+.box12 {
+  width: 200px;
+  height: 200px;
+  background-color: #8eb8ff;
 }
 
 footer {
