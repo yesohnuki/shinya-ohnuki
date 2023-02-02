@@ -1,0 +1,59 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.box1 {
+  height: 50px;
+  width: 100%;
+  background-color: #FF9A4B;
+}
+
+.main {
+  width: 960px;
+  display: flex; /* Flexboxの利用 */
+  justify-content: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.main-name {
+
+
+}
+.blog {
+  height: 180px;
+  width: 300px;
+  background-color: #EEEEEE;
+  margin-right: 30px; /* 領域の右側余白 */
+  margin-left: 30px;
+}
+
+.blog-text {
+  margin-top: 15px;
+  margin-bottom: 5px;
+}
+
+
+.sidebar-left {
+  height: 180px;
+  width: 300px;
+  background-color: #EEEEEE;
+  margin-right: 30px; /* 領域の右側余白 */
+  margin-left: 30px;
+}
+
+.sidebar-right {
+  height: 180px;
+  width: 300px;
+  background-color: #EEEEEE;
+  margin-right: 30px; /* 領域の右側余白 */
+  margin-left: 30px;
+}
+
+.box2 {
+  height: 50px;
+  width: 100%;
+  background-color: #AAAAAA;
+}
